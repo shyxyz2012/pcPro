@@ -40,7 +40,7 @@
   height: data(30rem);
   position: absolute;
   left: 50%;
-  margin-left: -35px;
+  margin-left: data(-35rem);
   bottom: data(10rem);
   .tab{
     width: data(10rem);
@@ -173,14 +173,14 @@
       border-right: 1px solid #D4D4D4;
       position: relative;
       .pFirst{
-        font-size: 30px;
+        font-size: data(25rem);
         color: #F9CE33;
         margin: data(45rem) 0 0 data(20rem);
       }
       .pTwo{
         font-size: 20px;
         color: #6A6A6A;
-        margin: data(20rem);
+        margin: data(16rem);
       }
       img{
         position: absolute;
@@ -200,12 +200,12 @@
       border-bottom: 1px solid #D4D4D4;
       position: relative;
       .pFirst{
-        font-size: 30px;
+        font-size: data(25rem);
         color: #EA5E7F;
         margin: data(25rem) 0 0 data(10rem);
       }
       .pTwo{
-        font-size: 20px;
+        font-size: data(16rem);
         color: #6A6A6A;
         margin: data(10rem);
       }
@@ -213,7 +213,7 @@
         width: data(170rem);
         height: data(170rem);
         position: absolute;
-        right: data(30rem);
+        right: data(15rem);
         bottom: data(10rem);
       }
     }
@@ -222,12 +222,12 @@
       height: 50%;
       position: relative;
       .pFirst{
-        font-size: data(30rem);
+        font-size: data(25rem);
         color: #7FD150;
         margin: data(25rem) 0 0 data(10rem);
       }
       .pTwo{
-        font-size: 20px;
+        font-size: data(16rem);
         color: #6A6A6A;
         margin: data(10rem);
       }
