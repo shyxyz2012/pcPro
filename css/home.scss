@@ -58,8 +58,7 @@
   width: 90%;
   height: 80px;
   position: absolute;
-  //border: 1px solid black;
-  margin: 60px 5%;
+  margin: data(20rem) 5%;
   .search-left{
     width: 70%;
     height: data(80rem);
@@ -109,7 +108,7 @@
 //产品类型部分开始
 #proType{
   width: 100%;
-  margin: 20px auto;
+  margin: data(20rem) auto;
   div{
     width: 25%;
     float: left;
@@ -118,7 +117,7 @@
       width: 60%;
     }
     p{
-      margin-top: 10px;
+      margin-top: data(10rem);
     }
   }
   a{
@@ -132,7 +131,7 @@
 #newPeople{
   width: 100%;
   position: relative;
-  top: 15px;
+  top: data(15rem);
   img{
     width: 100%;
     display: block;
@@ -145,8 +144,8 @@
   width: 100%;
   .mother-title{
     width: 100%;
-    height: 80px;
-    line-height: 80px;
+    height: data(80rem);
+    line-height: data(80rem);
     text-align: center;
     font-size: 30px;
     color: #000;
@@ -154,12 +153,12 @@
       font-family: iconfont;
       color: #F36463;
       font-size: 30px;
-      margin: 0 10px 0 0;
+      margin: 0 data(10rem) 0 0;
     }
   }
   .mother-pro{
     width: 100%;
-    height: 323px;
+    height: data(323rem);
     border-bottom: 1px solid #D4D4D4;
     border-top: 1px solid #D4D4D4;
     .mother-pro-left{
@@ -171,17 +170,17 @@
       .pFirst{
         font-size: 30px;
         color: #F9CE33;
-        margin: 45px 0 0 20px;
+        margin: data(45rem) 0 0 data(20rem);
       }
       .pTwo{
         font-size: 20px;
         color: #6A6A6A;
-        margin: 20px;
+        margin: data(20rem);
       }
       img{
         position: absolute;
-        right: 20px;
-        bottom: 5px;
+        right: data(20rem);
+        bottom: data(5rem);
         width: data(240rem);
         height: data(240rem);
       }
@@ -198,19 +197,19 @@
       .pFirst{
         font-size: 30px;
         color: #EA5E7F;
-        margin: 25px 0 0 10px;
+        margin: data(25rem) 0 0 data(10rem);
       }
       .pTwo{
         font-size: 20px;
         color: #6A6A6A;
-        margin: 10px;
+        margin: data(10rem);
       }
       img{
         width: data(120rem);
         height: data(100rem);
         position: absolute;
-        right: 35px;
-        bottom: 10px;
+        right: data(35rem);
+        bottom: data(10rem);
       }
     }
     .mpr-bottom{
@@ -220,19 +219,19 @@
       .pFirst{
         font-size: 30px;
         color: #7FD150;
-        margin: 25px 0 0 10px;
+        margin: data(25rem) 0 0 data(10rem);
       }
       .pTwo{
         font-size: 20px;
         color: #6A6A6A;
-        margin: 10px;
+        margin: data(10rem);
       }
       img{
         width: data(160rem);
         height: data(100rem);
         position: absolute;
-        right: 20px;
-        bottom: 40px;
+        right: data(20rem);
+        bottom: data(40rem);
       }
     }
     }
@@ -245,8 +244,8 @@
   width: 100%;
   .shop-title{
     width: 100%;
-    height: 80px;
-    line-height: 80px;
+    height: data(80rem);
+    line-height: data(80rem);
     text-align: center;
     font-size: 30px;
     color: #000;
@@ -254,7 +253,7 @@
       font-family: iconfont;
       color: #F36463;
       font-size: 30px;
-      margin: 0 10px 0 0;
+      margin: 0 data(10rem) 0 0;
     }
   }
 }
@@ -277,7 +276,7 @@
       font-size: data(25rem);
       color: #000;
       text-align: center;
-      margin-top: 15px;
+      margin-top: data(15rem);
     }
     .shopB{
       width: 100%;
@@ -285,13 +284,13 @@
         float: left;
         color: #FF3456;
         font-size: data(30rem);
-        margin: 10px;
+        margin: data(10rem);
       }
       img{
         float: right;
         width: data(30rem);
         height: data(30rem);
-        margin: 10px;
+        margin: data(10rem);
       }
     }
   }
@@ -311,7 +310,7 @@
       font-size: data(25rem);
       color: #000;
       text-align: center;
-      margin-top: 15px;
+      margin-top: data(15rem);
     }
     .shopB{
       width: 100%;
@@ -319,13 +318,13 @@
         float: left;
         color: #FF3456;
         font-size: data(30rem);
-        margin: 10px;
+        margin: data(10rem);
       }
       img{
         float: right;
         width: data(30rem);
         height: data(30rem);
-        margin: 10px;
+        margin: data(10rem);
       }
     }
   }
@@ -334,7 +333,7 @@
     height: 49%;
     border: 1px solid #F5F5F5;
     float: left;
-    margin-top: 10px;
+    margin-top: data(10rem);
     .sBig{
       width: data(370rem);
       height: data(370rem);
@@ -346,7 +345,7 @@
       font-size: data(25rem);
       color: #000;
       text-align: center;
-      margin-top: 15px;
+      margin-top: data(10rem);
     }
     .shopB{
       width: 100%;
@@ -354,19 +353,19 @@
         float: left;
         color: #FF3456;
         font-size: data(30rem);
-        margin: 10px;
+        margin: data(10rem);
       }
       img{
         float: right;
         width: data(30rem);
         height: data(30rem);
-        margin: 10px;
+        margin: data(10rem);
       }
     }
   }
   .shop-contain-four {
     border: 1px solid #F5F5F5;
-    margin-top: 10px;
+    margin-top: data(10rem);
     width: 49%;
     height: 49%;
     float: right;
@@ -381,7 +380,7 @@
       font-size: data(25rem);
       color: #000;
       text-align: center;
-      margin-top: 15px;
+      margin-top: data(15rem);
     }
     .shopB{
       width: 100%;
@@ -389,13 +388,13 @@
         float: left;
         color: #FF3456;
         font-size: data(30rem);
-        margin: 10px;
+        margin: data(10rem);
       }
       img{
         float: right;
         width: data(30rem);
         height: data(30rem);
-        margin: 10px;
+        margin: data(10rem);
       }
     }
   }
@@ -404,7 +403,7 @@
 
 .jiange{
   width: 100%;
-  height: 20px;
+  height: data(20rem);
   background: #F5F5F5;
 }
 
