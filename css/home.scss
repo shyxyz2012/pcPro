@@ -1,0 +1,424 @@
+@charset "UTF-8";
+
+@function data($num){
+  @return $num/20;
+}
+@mixin ell($a){
+  overflow: hidden;;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $a;
+  line-clamp:$a;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+#main{
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+//首页幻灯片部分样式开始
+.phoChange{
+  width: 100%;
+  height: data(300rem);
+  position: relative;
+  cursor: pointer;
+}
+.phos{
+  width: 100%;
+  img{
+    width: 100%;
+    height: data(300rem);
+    position: absolute;
+  }
+}
+.tabs{
+  width: 70px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  margin-left: -35px;
+  bottom: 10px;
+  .tab{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    float: left;
+    margin:10px 6px;
+  }
+  .bg{
+    background: #000;
+  }
+}
+.search{
+  width: 90%;
+  height: 80px;
+  position: absolute;
+  //border: 1px solid black;
+  margin: 60px 5%;
+  .search-left{
+    width: 70%;
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+    background: rgba(214,226,255,0.6);
+    border-radius: 50px;
+    line-height: 80px;
+    //b{
+    //  font-family: iconfont;
+    //  color: #757371;
+    //  font-size: 30px;
+    //  float: left;
+    //}
+    .sl-contain{
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+      input{
+        border: none;
+        outline: none;
+        width:100%;
+        background: rgba(214,226,255,0);
+        font-size: 24px;
+        color:#757371;
+      }
+    }
+  }
+}
+.search-right{
+  float: right;
+  margin-right:25px;
+  width: data(80rem);
+  height: data(80rem);
+  line-height: data(80rem);
+  text-align: center;
+  border-radius: 50%;
+  background:rgba(255,241,255,0.6);
+  b{
+    font-family: iconfont;
+    color: #F35F5E;
+    font-size: 30px;
+  }
+}
+//首页幻灯片部分样式结束
+
+//产品类型部分开始
+#proType{
+  width: 100%;
+  margin: 20px auto;
+  div{
+    width: 25%;
+    float: left;
+    text-align: center;
+    img{
+      width: 60%;
+    }
+    p{
+      margin-top: 10px;
+    }
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
+//产品类型部分结束
+
+//新人领券部分开始
+#newPeople{
+  width: 100%;
+  position: relative;
+  top: 15px;
+  img{
+    width: 100%;
+    display: block;
+  }
+}
+//新人领券部分结束
+
+//妈妈推荐部分开始
+#mother{
+  width: 100%;
+  .mother-title{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    b{
+      font-family: iconfont;
+      color: #F36463;
+      font-size: 30px;
+      margin: 0 10px 0 0;
+    }
+  }
+  .mother-pro{
+    width: 100%;
+    height: 323px;
+    border-bottom: 1px solid #D4D4D4;
+    border-top: 1px solid #D4D4D4;
+    .mother-pro-left{
+      width: 49.5%;
+      height: 100%;
+      float: left;
+      border-right: 1px solid #D4D4D4;
+      position: relative;
+      .pFirst{
+        font-size: 30px;
+        color: #F9CE33;
+        margin: 45px 0 0 20px;
+      }
+      .pTwo{
+        font-size: 20px;
+        color: #6A6A6A;
+        margin: 20px;
+      }
+      img{
+        position: absolute;
+        right: 20px;
+        bottom: 5px;
+        width: data(240rem);
+        height: data(240rem);
+      }
+    }
+    .mother-pro-right{
+      width: 50%;
+      height: 100%;
+      float: right;
+    .mpr-top{
+      width: 100%;
+      height: 48%;
+      border-bottom: 1px solid #D4D4D4;
+      position: relative;
+      .pFirst{
+        font-size: 30px;
+        color: #EA5E7F;
+        margin: 25px 0 0 10px;
+      }
+      .pTwo{
+        font-size: 20px;
+        color: #6A6A6A;
+        margin: 10px;
+      }
+      img{
+        width: data(120rem);
+        height: data(100rem);
+        position: absolute;
+        right: 35px;
+        bottom: 10px;
+      }
+    }
+    .mpr-bottom{
+      width: 100%;
+      height: 50%;
+      position: relative;
+      .pFirst{
+        font-size: 30px;
+        color: #7FD150;
+        margin: 25px 0 0 10px;
+      }
+      .pTwo{
+        font-size: 20px;
+        color: #6A6A6A;
+        margin: 10px;
+      }
+      img{
+        width: data(160rem);
+        height: data(100rem);
+        position: absolute;
+        right: 20px;
+        bottom: 40px;
+      }
+    }
+    }
+  }
+}
+//妈妈推荐部分结束
+
+//商品推荐部分开始
+#shop{
+  width: 100%;
+  .shop-title{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    b{
+      font-family: iconfont;
+      color: #F36463;
+      font-size: 30px;
+      margin: 0 10px 0 0;
+    }
+  }
+}
+.shop-contain {
+  width: 100%;
+  height: data(1000rem);
+  .shop-contain-first {
+    width: 49%;
+    height: 49%;
+    border-top: 1px solid #F5F5F5;
+    border-right: 1px solid #F5F5F5;
+    float: left;
+    .sBig{
+      width: 95%;
+      height: 70%;
+      text-align: center;
+    }
+    p{
+      width: 94%;
+      @include ell(2);
+      font-size: data(25rem);
+      color: #000;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .shopB{
+      width: 100%;
+      span{
+        float: left;
+        color: #FF3456;
+        font-size: data(30rem);
+        margin: 10px;
+      }
+      img{
+        float: right;
+        width: 15%;
+        height: 15%;
+        margin: 10px;
+      }
+    }
+  }
+  .shop-contain-two {
+    width: 49%;
+    height: 49%;
+    border-top: 1px solid #F5F5F5;
+    border-left: 1px solid #F5F5F5;
+    float: right;
+    .sBig{
+      width: 95%;
+      height: 70%;
+      text-align: center;
+    }
+    p{
+      width: 94%;
+      @include ell(2);
+      font-size: data(25rem);
+      color: #000;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .shopB{
+      width: 100%;
+      span{
+        float: left;
+        color: #FF3456;
+        font-size: data(30rem);
+        margin: 10px;
+      }
+      img{
+        float: right;
+        width: 15%;
+        height: 15%;
+        margin: 10px;
+      }
+    }
+  }
+  .shop-contain-three {
+    width: 49%;
+    height: 49%;
+    border: 1px solid #F5F5F5;
+    float: left;
+    margin-top: 10px;
+    .sBig{
+      width: 95%;
+      height: 70%;
+      text-align: center;
+    }
+    p{
+      width: 94%;
+      @include ell(2);
+      font-size: data(25rem);
+      color: #000;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .shopB{
+      width: 100%;
+      span{
+        float: left;
+        color: #FF3456;
+        font-size: data(30rem);
+        margin: 10px;
+      }
+      img{
+        float: right;
+        width: 15%;
+        height: 15%;
+        margin: 10px;
+      }
+    }
+  }
+  .shop-contain-four {
+    border: 1px solid #F5F5F5;
+    margin-top: 10px;
+    width: 49%;
+    height: 49%;
+    float: right;
+    .sBig{
+      width: 95%;
+      height: 70%;
+      text-align: center;
+    }
+    p{
+      width: 94%;
+      @include ell(2);
+      font-size: data(25rem);
+      color: #000;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .shopB{
+      width: 100%;
+      span{
+        float: left;
+        color: #FF3456;
+        font-size: data(30rem);
+        margin: 10px;
+      }
+      img{
+        float: right;
+        width: 15%;
+        height: 15%;
+        margin: 10px;
+      }
+    }
+  }
+}
+//商品推荐部分结束
+
+//首页底部部分开始
+#home-last{
+  width: 100%;
+  div{
+    width: 25%;
+    float: left;
+    text-align: center;
+    a{
+      text-decoration: none;
+      color: #868686;
+    }
+  }
+  img{
+    width: 40%;
+    height: 40%;
+  }
+}
+//首页底部部分结束
