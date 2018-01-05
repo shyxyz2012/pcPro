@@ -36,19 +36,19 @@
   }
 }
 .tabs{
-  width: 70px;
-  height: 30px;
+  width: data(70rem);
+  height: data(30rem);
   position: absolute;
   left: 50%;
   margin-left: -35px;
-  bottom: 10px;
+  bottom: data(10rem);
   .tab{
-    width: 10px;
-    height: 10px;
+    width: data(10rem);
+    height: data(10rem);
     border-radius: 50%;
     background: #fff;
     float: left;
-    margin:10px 6px;
+    margin:data(10rem) data(6rem);
   }
   .bg{
     background: #000;
@@ -56,9 +56,9 @@
 }
 .search{
   width: 90%;
-  height: 80px;
+  height: data(80rem);
   position: absolute;
-  margin: data(20rem) 5%;
+  margin: data(40rem) 5%;
   .search-left{
     width: 70%;
     height: data(80rem);
@@ -82,7 +82,7 @@
         outline: none;
         width:100%;
         background: rgba(214,226,255,0);
-        font-size: 24px;
+        font-size: data(24rem);
         color:#757371;
       }
     }
@@ -100,7 +100,7 @@
   b{
     font-family: iconfont;
     color: #F35F5E;
-    font-size: 30px;
+    font-size:data(30rem);
   }
 }
 //首页幻灯片部分样式结束
@@ -139,6 +139,11 @@
 }
 //新人领券部分结束
 
+.moJ{
+  width: 100%;
+  height: data(10rem);
+  background: #F5F5F5;
+}
 //妈妈推荐部分开始
 #mother{
   width: 100%;
@@ -147,12 +152,12 @@
     height: data(80rem);
     line-height: data(80rem);
     text-align: center;
-    font-size: 30px;
+    font-size: data(30rem);
     color: #000;
     b{
       font-family: iconfont;
       color: #F36463;
-      font-size: 30px;
+      font-size: data(30rem);
       margin: 0 data(10rem) 0 0;
     }
   }
@@ -217,7 +222,7 @@
       height: 50%;
       position: relative;
       .pFirst{
-        font-size: 30px;
+        font-size: data(30rem);
         color: #7FD150;
         margin: data(25rem) 0 0 data(10rem);
       }
@@ -247,12 +252,12 @@
     height: data(80rem);
     line-height: data(80rem);
     text-align: center;
-    font-size: 30px;
+    font-size: data(30rem);
     color: #000;
     b{
       font-family: iconfont;
       color: #F36463;
-      font-size: 30px;
+      font-size: data(30rem);
       margin: 0 data(10rem) 0 0;
     }
   }
